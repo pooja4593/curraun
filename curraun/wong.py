@@ -6,6 +6,7 @@ from curraun.numba_target import use_cuda, myjit, my_parallel_loop, my_cuda_sum,
 import curraun.lattice as l
 import curraun.su as su
 
+# My test comment
 if use_cuda:
     import numba.cuda as cuda
 import numpy as np
